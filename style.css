@@ -1,0 +1,153 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+.tri {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid red;
+    margin: auto;
+}
+
+.trap1 {
+    border-bottom: 75px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trap2 {
+    border-bottom: 75px solid rgb(255, 196, 0);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trap3 {
+    border-bottom: 75px solid rgb(238, 255, 0);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trap4 {
+    border-bottom: 75px solid rgb(0, 225, 255);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trap5 {
+    border-bottom: 75px solid rgb(179, 96, 1);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trap6 {
+    border-bottom: 75px solid rgb(0, 255, 85);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.allButton {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.num {
+    display: inline-block;
+    font-size: 26px;
+}
+
+.visible1 {
+    display: none;
+}
+
+.trap1:hover .visible1 {
+    display: block;
+}
+
+.visible2 {
+    opacity: 0;
+}
+
+.trap2:hover .visible2 {
+    opacity: 1;
+}
+
+.visible3 {
+    opacity: 0;
+}
+
+.trap3:hover .visible3 {
+    opacity: 1;
+}
+
+.visible4 {
+    opacity: 0;
+}
+
+.trap4:hover .visible4 {
+    opacity: 1;
+}
+
+.visible5 {
+    opacity: 0;
+}
+
+.trap5:hover .visible5 {
+    opacity: 1;
+}
+
+.visible6 {
+    opacity: 0;
+}
+
+.trap6:hover .visible6 {
+    opacity: 1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
